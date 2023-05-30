@@ -1,0 +1,1590 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+fieldset{
+    border: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+.inner{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    background-color: #fff;
+}
+.skyH{
+    background-color: #05203c;
+    padding: 3rem;
+}
+.SHT{
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+    padding-top: 0.5rem;
+}
+#logo{
+    width: 173px;
+}
+#barB{
+    border: none;
+    background-color: initial;
+    cursor: pointer;
+}
+.skyH2{
+    display: flex;
+    margin-left: auto;
+    margin-right: 3.5rem;
+}
+.skyH3{
+    padding-left: 3rem;
+    color: #fff;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+.skyli{
+    display: flex;
+}
+.login{
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+.skyinput{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 115px;
+    padding-left: 3rem;
+}
+.inputsub{
+    background-color: white;
+    width: 270px;
+    height: 70px;
+    margin-left: 2px;
+    margin-right: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.inputsub > label{
+    width: 100%;
+    color: #68697f;
+    font-size: .875rem;
+    line-height: 1.25rme;
+    font-weight: 700;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.inputsub > input{
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+    color: #111236;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    margin-left: 1rem;
+}
+.inputsub1{
+    background-color: white;
+    width: 270px;
+    height: 70px;
+    margin-left: 2px;
+    margin-right: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.inputsub1 > label{
+    width: 100%;
+    color: #68697f;
+    font-size: .875rem;
+    line-height: 1.25rme;
+    font-weight: 700;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.inputsub1 > input{
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+    color: #111236;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    margin-left: 1rem;
+}
+.inputsub2{
+    background-color: white;
+    width: 170px;
+    height: 70px;
+    margin-left: 2px;
+    margin-right: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+.inputsub2 > label{
+    width: 100%;
+    color: #68697f;
+    font-size: .875rem;
+    line-height: 1.25rme;
+    font-weight: 700;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.inputsub2 > input{
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+    color: #111236;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    margin-left: 1rem;
+}
+.inputsub2 > button{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    color: #68697f;
+    font-size: 1rem;
+    display: flex;
+    margin-left: 1rem;
+    line-height: 1.5rem;
+}
+.inputsub3{
+    background-color: white;
+    width: 200px;
+    height: 70px;
+    margin-left: 2px;
+    margin-right: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+.inputsub3 >button > label{
+    color: #68697f;
+    font-size: .875rem;
+    line-height: 1.25rme;
+    font-weight: 700;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.inputsub3s{
+    border: none;
+    background: none;
+    outline: none;
+    color: #111236;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    margin-left: 1rem;
+}
+.inputsub3 > button{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+#inputsubS{
+    border-radius: 0.75em 0 0 0.75em;
+}
+#sub2{
+    border-radius: 0 0.75em 0.75em 0;
+}
+.inputbutton{
+    width: 100px;
+    height: 70px;
+    background-color: #0770e3;  
+    margin-left: 1rem;
+    border-radius: 0.75em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputbutton :hover{
+    width: 100%;
+    height: 70px;
+    border-radius: 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #054a94;
+}
+.inputbutton > button{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.inputcheckbox{
+    position: relative;
+    left: 3rem;
+    width: 100px;
+    height: 30px;
+}
+.inputcheckbox > input{
+    background-color: #fff;
+    width: 1.25rem;
+    height: 1.25rem;
+    border: 0.1875rem solid #68697f;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    vertical-align: text-bottom;
+}
+.inputcheckbox > label{
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    vertical-align: initial
+}
+.tag{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.tagT{
+    display: flex;
+    margin: 0 auto;
+    grid-column-gap: 0.5rem;
+}
+.svg1{
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+}
+#svgI{
+    width: 40px;
+}
+.hotel{
+    width: 390px;
+    height: 150px;
+    box-shadow: 0 1px 3px 0 rgb(37 32 31 / 30%);
+    border-radius: 0.75rem;
+    margin-right: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.hotel:hover{
+    box-shadow: 0 4px 14px 0 rgb(37 32 31 / 25%);
+}
+   
+.hotel2{
+    position: relative;
+    font-weight: bold;
+    top: 4rem;
+    left: 1rem;
+}
+.rent{
+    width: 390px;
+    height: 150px;
+    box-shadow: 0 1px 3px 0 rgb(37 32 31 / 30%);
+    border-radius: 0.75rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.rent:hover{
+    box-shadow: 0 4px 14px 0 rgb(37 32 31 / 25%);
+}
+
+.rent2{
+    position: relative;
+    font-weight: bold;
+    top: 4rem;
+    left: 1rem;
+}
+.all{
+    width: 390px;
+    height: 150px;
+    box-shadow: 0 1px 3px 0 rgb(37 32 31 / 30%);
+    border-radius: 0.75rem;
+    margin-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.all:hover{
+    box-shadow: 0 4px 14px 0 rgb(37 32 31 / 25%);
+}
+
+.all2{
+    position: relative;
+    font-weight: bold;
+    top: 4rem;
+    left: 1rem;
+}
+
+.skybody{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    row-gap: 4rem;
+    grid-row-gap: 4rem;
+    padding: 3rem;
+}
+.adtip{
+    position: relative;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+#adimg{
+    width:100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-position: 50%;
+    background-size:cover;
+    box-shadow: none;
+    box-sizing: inherit;
+    border-radius: 0.75rem;
+}
+.area{
+    box-sizing: inherit;
+}
+.areaL{
+    position: relative;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.Ltitle{
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+}
+.Lsub{
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+.List{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 1.5rem;
+    grid-gap: 1rem 1rem;
+}
+.List1{
+    box-shadow: 0 4px 14px 0 rgb(37 32 31 / 25%);
+    border-radius: 0.75rem;
+    display: flex;
+}
+#LH{
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+}
+.ListP{
+    width: 88px;
+    height: 88px;
+}
+.Listimg{
+    width: 88px;
+    height: 88px;
+    border-radius: 0.75rem 0 0 0.75rem;
+}
+.List1T{
+    display: flex;
+    margin-left: 1rem;
+    flex-direction: column;
+    align-self: center;
+    flex-grow: 1;
+    overflow-x: auto;
+}
+.List1Sub{
+    padding-top: 0.25rem;
+}
+.List1Sub > a{
+    padding: 0;
+    border: 0;
+    background-color: initial;
+    text-decoration: none;
+    cursor: pointer;
+    appearance: none;
+    color: #0770e3;
+    color: var(--bpk-link-color,#0770e3);
+}
+.Subtitle{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+.Subtitle:hover{
+    text-decoration: underline;
+}
+.point{
+    margin: 0 0.25rem;
+    color: #0062e3;
+    cursor: pointer;
+}
+.another{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.anotherL{
+    padding-bottom: 1.5rem;
+    box-shadow: inset 0 -2px 0 0 #e0e3e5;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+}
+.anotherSub{
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 0;
+    box-shadow: inset 0 -2px 0 0 #e0e3e5;
+    margin-top: 1rem;
+}
+.ASBTM{
+    display: none;
+}
+.ASBT{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 1.5rem;
+}
+.ASBTsub{
+    margin-top: 1.5rem;
+}
+.ASBTsub > p{
+    margin-right: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.ASBTsub2{
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+.ASBTsub3{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+.ASBTa{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+}
+.ASBTa1{
+    display: flex;
+    margin-top: 1.25rem;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    color: #0770e3;
+}
+.ASBTa2{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+.ASBTa2:hover{
+    text-decoration: underline;
+}
+.ASBTMB{
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    width: 100%;
+}
+.flagB{
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    width: 100%;
+}
+#AT{
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    text-align: left;
+    width: 100%;
+}
+.another2{
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 0;
+    box-shadow: inset 0 -2px 0 0 #e0e3e5;
+    margin-top: 1rem;
+}
+.flag{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1rem;
+    margin-top: 1.5rem;
+    margin-right: 0;
+}
+.flagA > img{
+    width: 24px;
+    height: 24px;
+    border-radius: 0.75rem;
+}
+.flagA{
+    display: flex;
+    align-items: center;
+}
+.flagT{
+    margin: 0 1rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: #0770e3;
+}
+.flagT:hover{
+    text-decoration: underline;
+}
+#AT2{
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    text-align: left;
+    width: 100%;
+}
+.skyfoot{
+    display: grid;
+    padding: 4rem 0 6.5rem;
+    grid-template-columns: 17% 17% 17% 17%;
+    grid-column-gap: 1.5rem;
+    background-color: #05203c;
+    color: #eff1f2;
+    box-sizing: inherit;
+    justify-content: center;
+}
+
+
+.FB{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: #05203c;
+    box-shadow: none;
+    color: #fff;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 400;
+    border-radius: 0.5rem;
+    border: 2px solid #fff;
+    padding: 0.25rem 0.5rem;
+}
+.FS{
+    color: #eff1f2;
+}
+#Bimg{            
+    height: 0.5rem;
+    margin-right: 0.25rem;
+    border: 1px solid #e0e3e5;
+}
+.Ftext{
+    display: flex;
+    flex-direction: column;
+
+}
+#FT{
+    padding-bottom: 0.5rem;
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+}
+#FT2{
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    padding: 0.5rem 0;
+}
+.Ftext2{
+    display: flex;
+    flex-direction: column;
+}
+.F3sub{
+    display: flex;
+    flex-direction: column;
+}
+.F3sub > ul > li{
+    list-style: none;
+}
+.F3sub > ul > li > button{
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+    border: none;
+    background-color: initial;
+    cursor: pointer;
+    color: #fff;
+}
+.Ftag{
+   position: absolute;
+   right: 0;
+   left: 0;
+   text-align: center;
+   bottom: 1.25rem;
+}
+#FtagP1{
+    margin-left: 1.5rem;
+    color: #eff1f2;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+#FtagP2{
+    font-size: 0.95rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+.ASB{
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+}
+.FTP{
+    width: 100%;
+    display: flex;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+}
+.HBT{
+    display: flex;
+    z-index: 9999;
+    flex-direction: column;
+    position: absolute;
+    color: black;
+    right:7rem;
+    top: 5.5rem;
+    width: 264px; height: 257px;
+    box-shadow: 0 4px 14px 0 rgb(37 32 31 / 25%);
+    background-color: #fff;
+    border-radius: 0.75rem;
+}
+.HBTM{
+    box-shadow: inset 0 -2px 0 0 #e0e3e5;
+}
+.HBTS{
+    position: relative;
+    margin-top: 1rem;
+}
+.HBTB{
+    display: flex;
+    border-radius: 0.75rem;
+    padding-top: 0.8rem;
+    padding-left: 1rem;
+    padding-bottom: 0.8rem;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    width: 100%;
+}
+#HBTBI{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding-right: 0.8rem;
+    color: #0062e3;
+}
+#HBTBI1{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding-right: 1rem;
+    color: #0062e3;
+}
+.HBTB > span{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+}
+.HBTB1{
+    display: flex;
+    padding-left: 1rem;
+    padding-top: 1.25rem;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    width: 100%;
+}
+#HBTB1I{
+    font-size: 0.875rem;
+    line-height: 1rem;
+    padding-right: 0.8rem;
+    color: #3b8188;
+}
+.HBTB1 > span{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+}
+.searchul{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+    padding-top: 1rem;
+}
+.searchli{
+    list-style: none;
+    margin: 0.3rem 0;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+.searchli > a{
+    color: #fff;
+}
+.searchli > a:hover{
+    text-decoration: underline;
+    color: #0770e3;
+}
+.searchspan{
+    display: inline-block;
+    vertical-align: top;
+}
+#planA{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+.subul{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0 -0.5rem;
+}
+.subli{
+    list-style: none;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    margin: 0.5rem 0;
+}
+.subli > a{
+    color: #fff;
+}
+.subli > a:hover{
+    text-decoration: underline;
+    color: #0770e3;
+}
+#Bplus{
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    width: 1.25rem;
+    height: 1.25rem;
+}
+.up{
+    display: none;
+}
+.rankM{
+    position: absolute;
+    z-index: 9999;
+    box-sizing: inherit;
+    background-color: #fff;
+    margin: 0 auto;
+    width: 24.5rem;
+    right: 7rem;
+    top: 19rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 14px 0 rgb(37 32 31 / 25%);
+}
+.rankT{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+.rankT1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+.rankTL{
+    margin-bottom: 0.5rem;
+    color: #05203c;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+.rankTspan{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+.rankTspan2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #05203c;
+}
+.rankT2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.rankT3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rankTli{
+    color: #05203c;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+.rankTli2{
+    color: #545860;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+#rankTB{
+    border: none;
+    border-radius: 0.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+#rankTM:hover{
+    cursor: no-drop;
+}
+#rankTP:hover{
+    cursor: pointer;
+    background-color: #e0e3e5;
+}
+.rankC{
+    margin-bottom: 1rem;
+}
+.rankP{
+    margin-bottom: 1rem;
+    color: #545860;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+.rankchoice{
+    display: flex;
+    align-items: center;
+}
+#rankinput{
+    width: 2.5rem;
+    height: 2.5rem;
+    border: none;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+.rankB{
+    border: none;
+    width: 100%;
+    height: 48px;
+    border-radius: 0.5rem;
+    background-color: #0062e3;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+.rankB:hover{
+    cursor: pointer;
+    background-color: #154679;
+}
+.rank{
+    display: none;
+}
+.DateK{
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 14px 0 rgb(37 32 31 / 25%);
+    width: 55%;
+    right: 15rem;
+    top: 19rem;
+    padding: 1.5rem 1.5rem 0;
+    background-color: #fff;
+}
+.DateT{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.DateLB{
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    width: 8rem;
+    height: 2rem;
+    border: none;
+    border-radius: 0.5rem 0 0 0.5rem;
+    box-shadow: inset 0 0 0 1px #c2c9cd;
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+.DateLB:hover{
+    box-shadow: inset 0 0 0 1px black;
+    cursor: pointer;
+}
+.DateRB{
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    width: 8rem;
+    height: 2rem;
+    border: none;
+    border-radius: 0 0.5rem 0.5rem 0;
+    box-shadow: inset 0 0 0 1px #c2c9cd;
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+}
+.DateRB:hover{
+    box-shadow: inset 0 0 0 1px black;
+    cursor: pointer;
+}
+.calender{
+    margin-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+.month{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.monthB{
+    border: none;
+    background-color: #fff;
+    width: 24px;
+    height: 28px;
+    cursor: pointer;
+}
+.day{
+    display: flex;
+    justify-content: space-between;
+}
+.dayL{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5rem;
+}
+.dayL > h2{
+    margin-top: -2rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+
+.dayR{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dayR > h2{
+    margin-top: -2rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+
+.daybutton{
+    box-shadow: inset 0 1px 0 0 #e0e3e5;
+    background-color: #fff;
+    align-items: center;
+    display: flex;
+    padding: 1rem 1.5rem;
+    margin-right: -1.5rem;
+    margin-left: -1.5rem;
+    margin-bottom: 0.5rem;
+    justify-content: space-between;
+}
+.choiceB{
+    border: none;
+    background-color: #0062e3;
+    color: #fff;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    width: 60px;
+    height: 48px;
+}
+.choiceB:hover{
+    background-color: #05203c;
+}
+.CMH2 > h2{
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+.Monthlist{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(6,2fr);
+    grid-gap: 1.063rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.M1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.M1B{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 0.75rem;
+    border-color: transparent;
+    background-color: #eff1f2;
+    cursor: pointer;
+}
+.M1B:hover{
+    background-color: #c2c9cd;
+}
+.MT{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+.choiceMonthT{
+    display: flex;
+    padding: 0 0.0625rem;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.earthB{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.earthModal{
+    position: absolute;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.earthModal.show{
+    display: block;
+}
+.ModalT{
+    position: absolute;
+    z-index: 99999;
+    top: 50%;
+    left: 50%;
+    padding: 1rem;
+    width: 30rem;
+    height: 25rem;
+    text-align: center;
+
+    background-color: rgb( 255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);
+
+    transform: translateX(-50%) translateY(-50%);
+}
+.ModalH{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.25rem;
+}
+.ModalH > h2{
+    color: #05203c;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+}
+.ModalHS > button{
+    width: 42px;
+    height: 42px;
+    border: none;
+    background-color: transparent;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+.ModalB{
+    display: flex;
+    flex-direction: column;
+    height: 95%;
+}
+.MB1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.MB1 > h3{
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+}
+#MB1B{
+    border: none;
+    background-color: transparent;
+    color: #0062e3;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+#MB1B:hover{
+    text-decoration: underline;
+}
+.MBS{
+    display: inline-block;
+    height: auto;
+    padding: 0.5rem 2rem 0.5rem 0.5rem;
+    border-width: 0.125rem;
+    border-color: #e0e3e5;
+    background-color: #fff;
+    color: #545860;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    border-radius: 0.5rem;
+}
+optgroup{
+    font-weight: 700;
+}
+option{
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+.MB2{
+    display: flex;
+    align-items: center;
+}
+.MB2 > h3{
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+}
+#MBB{
+    width: 100%;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #05203c;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+#MBB:hover{
+    background-color: #054a94;
+}
+.IPSL{
+    display: none;
+    position: absolute;
+    z-index: 99999;
+    top: 19rem;
+    border-radius: 0.75rem;
+    background-color: #fff;
+    box-shadow: 0 4px 14px 0 rgb(37 32 31);
+}
+.inputsublist{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 33rem;
+    height: 100%;
+    padding: 1.5rem;
+}
+#inputsubLB{
+    margin-bottom: 1rem;
+}
+.inputsublist > button{
+    width: 100%;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #0062e3;
+}
+.inputsublist > button:hover{
+    color: black;
+}
+
+.inputXB{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 36.5rem;
+}
+.inputXB > button{
+    border: none;
+    cursor: pointer;
+}
+
+.addchild{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.acAppend{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.acSpan{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0.25rem;
+}
+
+.acSelect{
+    height: 3rem;
+    border-radius: 0.75rem;
+    border-color: #c2c9cd;
+    padding: .375rem 2rem .375rem .5rem;
+}
+
+/* 달력 */
+.dD{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    margin-bottom: 0.5rem;
+}
+
+.dateBoard{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(7,1fr);
+    grid-row-gap: 0.5rem;
+}
+.dateBoard > div{
+    width: 2.25rem;
+    height: 2.25rem;
+    align-items: center;
+    text-align: center;
+    border: none;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.dateDay{
+    display: table-row;
+    text-align: center;
+}
+.dateDay > p{
+    display: table-cell;
+    height: 2.25rem;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    padding-right: 0.8rem;
+}
+
+.dateBoard2{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(7,1fr);
+    grid-row-gap: 0.5rem;
+}
+.dateBoard2 > div{
+    width: 2.25rem;
+    height: 2.25rem;
+    align-items: center;
+    text-align: center;
+    border: none;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.dateDay2{
+    display: table-row;
+    text-align: center;
+}
+.dateDay2 > p{
+    display: table-cell;
+    height: 2.25rem;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    padding-right: 0.8rem;
+}
+.noColor {
+    color: #eee;
+}
+.today{
+    background-color: #0062e3;
+    color: #fff;
+}
+@media screen and (max-width: 1189px) {
+    .inputsub{
+        flex-basis: 20%;
+    }
+    .inputsub1{
+        flex-basis: 20%;
+    }
+    .inputsub2{
+        flex-basis: 13%;
+    }
+    .inputsub3{
+        flex-basis: 20%;
+    }
+    .inputbutton{
+        flex-basis: 8%;
+    }
+    .inputbutton > button{
+        align-items: center;
+        height: 70px;
+        font-size: 1rem;
+    }
+    .inputXB{
+        position: absolute;
+        z-index: 1;
+        left: 41%;
+    }
+    .inputXB > button > img{
+        width: 3rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+   .dayL{
+    margin-right: 1.5rem;
+   }
+   
+}
+
+@media screen and (max-width: 1000px) {
+
+    .inputsub{
+        flex-basis: 18%;
+    }
+    .inputsub1{
+        flex-basis: 18%;
+    }
+    .inputsub2{
+        flex-basis: 15%;
+    }
+    .inputsub3{
+        flex-basis: 19%;
+    }
+    .inputbutton{
+        flex-basis: 8%;
+    }
+    .inputbutton > button{
+        font-size: 1rem;
+    }
+    .DateK{
+        width: 60%;
+        right: 5rem;
+    }
+    .inputXB{
+        position: absolute;
+        z-index: 1;
+        left: 22rem;
+    }
+  
+    
+}
+
+@media screen and (max-width: 900px) {
+    .List{
+        grid-template-columns: 100%;
+    }
+    .flag{
+        grid-template-columns: 100%;
+    }
+    .DateK{
+        width: 70%;
+    }
+ 
+}
+
+
+@media screen and (max-width: 800px) {
+    .rankM{
+        width: 100%;
+        top: 60%;
+        left: -3%;   
+    }
+    .skyH3{
+        display: none;
+    }
+    .skyinput{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: flex-start;
+    }
+    .inputsub{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 1rem;
+        align-items: center;
+        background-color: hsla(0,0%,100%,.1);
+    }
+    .inputsub > label{
+        color: #fff;
+        height: 35px;
+        line-height: 2.3rem;
+    }
+    .inputsub > input{
+        color: #fff;
+    }
+    #inputsubS{
+        border-radius: 0.75rem;
+    }
+    .inputsub1{
+        position: relative;
+        width: 85.5%;
+        border-radius: 0.75rem 0.75rem 0 0;
+    }
+    .inputsub1 > label{
+        display: none;
+    }
+    #inputID{
+        height: 40px;
+    }
+    .inputsub2{
+        position: relative;
+        width: 42%;
+        border-radius: 0 0 0 0.75rem;
+        margin-top: 0.1rem;
+    }
+    .inputsub2 > label{
+        display: none;
+    }
+    .inputsub2 > button{
+        height: 40px;
+        line-height: 2.5rem;
+    }
+    #inputsub2A{
+        display: none;
+    }
+
+    .inputsub3{
+        position: relative;
+        width: 43%;
+        left: 42.5%;
+        bottom: 2.5rem;
+    }
+    .inputsub3 > button > label{
+        display: none;
+    }
+    .inputsub3 > button{
+        height: 40px;
+    }
+    .inputsub3s{
+        line-height: 2.5rem;
+    }
+    #sub2{
+        border-radius: 0 0 0.75rem 0;
+    }
+    .inputcheckbox{
+        position: relative;
+        bottom: 4rem;
+    }
+    .inputbutton{
+        position: relative;
+        margin-left: 0;
+        top: 2rem;
+        height: 50px;
+        width: 85%;
+        border-radius: 0.75rem;
+        cursor: pointer;
+    }
+     .inputbutton > button{
+        height: 50px;
+        align-items: center;
+    }
+    .inputbutton:hover{
+        position: relative;
+        margin-left: 0;
+        height: 50px;
+        border-radius: 0.75rem;
+        background-color: #054a94;
+        cursor: pointer;
+    }
+    .inputbutton > button:hover{
+        height: 50px;
+    } 
+    .DateK{
+        width: 100%;
+        top: -46%;
+        left: -8%;
+        height: 715px;
+    }
+    .IPSL{
+        top: 106%;
+        width: 100%;
+    }
+    .inputXB{
+        left: 92%;
+    }
+    .inputXB > button > img{
+        width: 2rem;
+    }
+
+@media screen and (max-width: 765px) {
+   
+}
+   
+}
